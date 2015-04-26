@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Fredrik\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-2eccae4cd31ab3d64480a60c3acb37353516b2b2.jar" />
+    </item>
+    <item
+        jar="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\pre-dexed\debug\classes-ec0c5deaeb99eac7c1e33c823591331fdd80bbd9.jar" />
+    </item>
+    <item
+        jar="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2f2259def027391a19da5f6c18033b761cc80d5e.jar" />
+    </item>
+    <item
+        jar="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="F:\Dokument\Skola\TDDD80 - Appen\tddd80\Android\Projekt\app\build\intermediates\pre-dexed\debug\classes-6ef8b4490fe0c3b1d83da7b8b7559f490e18737b.jar" />
+    </item>
+
+</items>

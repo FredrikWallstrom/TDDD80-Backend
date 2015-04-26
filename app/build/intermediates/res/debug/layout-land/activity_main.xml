@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.fredrik.projekt.LoginFragment"
+        android:id="@+id/fragment"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+<!-- From: file:/F:/Dokument/Skola/TDDD80%20-%20Appen/tddd80/Android/Projekt/app/src/main/res/layout-land/activity_main.xml -->

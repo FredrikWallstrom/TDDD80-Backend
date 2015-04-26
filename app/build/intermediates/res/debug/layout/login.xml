@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:background="#ff33171c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/edit_text_login_screen"
+            android:hint="@string/email_input"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/emailField"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/edit_text_login_screen"
+            android:ems="10"
+            android:hint="@string/password_input"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            style="@style/buttons_login_screen"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/passwordField"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"
+            android:background="@drawable/buttons_login_screen"
+            android:text="@string/signIn" />
+
+        <Button
+            android:id="@+id/registerButton"
+            style="@style/buttons_login_screen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttons_login_screen"
+            android:text="@string/register" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+<!-- From: file:/F:/Dokument/Skola/TDDD80%20-%20Appen/tddd80/Android/Projekt/app/src/main/res/layout/login.xml -->
