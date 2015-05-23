@@ -207,7 +207,6 @@ class RestApiTests(TestCase):
 
         # Get all posts
         posts = self.client.get(base_url + '/all_posts')
-        print(posts.data)
         posts = posts.json
 
         # Check if the len of the list is 1 and the key is "posts".
@@ -228,9 +227,8 @@ class RestApiTests(TestCase):
 
         # Get all posts
         posts = self.client.get(base_url + '/all_posts')
-        print(posts.data)
         posts = posts.json
-        # Check if the len of the list is 1 and the key is "posts".
+        # Check if the len of the list is 2 and the key is "posts".
         for key, values in posts.items():
             if len(values) == 2 and key == "posts":
                 assert True
